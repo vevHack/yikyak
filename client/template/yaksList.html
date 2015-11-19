@@ -1,0 +1,16 @@
+<template name="yaksList">
+    <div class="yaks">
+        <div class="form-style">
+            <div class="container">
+                <ul class="list-group">
+                    <h1>
+                        Live feed of what people are saying around you.
+                    </h1>
+                    {{#each yaks}}
+                        {{> yakItem}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>
